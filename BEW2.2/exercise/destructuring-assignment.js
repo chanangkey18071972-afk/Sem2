@@ -23,12 +23,8 @@
 // console.log(name); // John Doe
 
 // console.log(father); // Mr. Do
-const {
-    id,
-    name,
-    courses,
-    parents: { father, mother },
-} = student;
+const { id, name, course, parents: { father, mother } } = student
+console.log(id)
 
 // 2. Spread Operator
 
@@ -69,4 +65,5 @@ const secondHalf = rest;
 // Your task is to:
 
 // Call the sum function with the array [1, 2, 3] as arguments using the spread operator.
+
 sum(...numbers);
