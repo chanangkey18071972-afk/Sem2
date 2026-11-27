@@ -13,6 +13,7 @@ export default function AddTodoForm({ addNewTodo }) {
         };
         // Step 3
         addNewTodo(newTodoObject);
+        setNewTodo("");
     };
     return (
         <div className="mt-4">
